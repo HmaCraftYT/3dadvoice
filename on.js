@@ -1,5 +1,4 @@
 const Eris = require("eris");
-var kboosh = new Eris("NTIxNzk4MjYzNTU3NDU1ODgz.DvGZ3Q.4dtpCarhnMwfAxrI5beQ1E62Eo4");
 var kboosh_id = "521798263557455883";
                     var i = "0";
                     var x = "0";
@@ -39,4 +38,4 @@ kboosh.on("messageCreate", (msg) => {
 
   
 
-kboosh.connect("NTIxNzk4MjYzNTU3NDU1ODgz.DvGZ3Q.4dtpCarhnMwfAxrI5beQ1E62Eo4")
+kboosh.connect(process.env.BOT_TOKEN)

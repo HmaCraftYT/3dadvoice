@@ -28,6 +28,6 @@ client.on('ready', () => {
  
  
  
-client.login('NTIxNzk4MjYzNTU3NDU1ODgz.DvGZ3Q.4dtpCarhnMwfAxrI5beQ1E62Eo4');
+client.login(procees.env.BOT_TOKEN);
   
 
